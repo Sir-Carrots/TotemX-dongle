@@ -33,6 +33,16 @@
     quick-tap-ms = <150>;
 };
 
+/ {
+    behaviors {
+        st: space_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&mo>, <&kp>;
+        };
+    };
+};
+
 &st {
     tapping-term-ms = <240>;
     flavor = "tap-preferred";
