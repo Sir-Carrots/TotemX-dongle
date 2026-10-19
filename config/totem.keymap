@@ -91,7 +91,7 @@
             bindings = <
             &kp Z           &kp X  &kp C      &kp V         &sl 3        &trans  &trans  &trans  &trans  &trans
             &kp TAB         &kp Q  &kp W      &kp E         &kp R        &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F        &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F        &trans  &trans  &trans  &trans  &trans  &to 0
                                    &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
             >;
         };
@@ -112,6 +112,15 @@
             &kp TILDE        &kp GRAVE    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp C_PREVIOUS    &kp C_NEXT  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp EQUAL        &kp PLUS
 &kp DELETE  &trans           &trans       &kp N0            &kp LEFT_BRACE        &trans            &trans      &kp RIGHT_BRACE        &kp C_PLAY_PAUSE   &trans           &trans             &trans
                                           &trans            &kp MINUS             &trans            &trans      &trans                 &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
